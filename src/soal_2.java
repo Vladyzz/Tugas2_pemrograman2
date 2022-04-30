@@ -5,7 +5,7 @@ public class soal_2 {
 
         public static void main(String args[]){
 
-            int input,  i;
+            int input,i,j;
             Scanner angka = new Scanner(System.in);
 
             System.out.println("Nama : Aditya Bintang Pradana");
@@ -15,17 +15,20 @@ public class soal_2 {
 
             System.out.print("Input Angka : ");
             input = angka.nextInt();
-            System.out.print("Bilangan yang merupakan kelipatan 3 atau 5 adalah ");
+            System.out.print("Bilangan yang kurang dari 10 adalah ");
 
             i = 1;
+            j = 0;
             do {
-                if (i % 3 == 0 || i % 5 == 0)  {
+                if (i % 2 != 0)  {
                     System.out.print( i );
                     System.out.print(" ");
+                    j = j + i;
                 }
                 i ++;
             } while (i <= input);
-
+            System.out.println(" ");
+            System.out.println("Jumlah seluruh bilangan adalah : "+ j);
         }
 
 }
