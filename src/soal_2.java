@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class soal_2 {
-
-
-        public static void main(String args[]){
+        public static void main(String[] args){
 
             int input,i,j;
             Scanner angka = new Scanner(System.in);
@@ -30,5 +28,4 @@ public class soal_2 {
             System.out.println(" ");
             System.out.println("Jumlah seluruh bilangan adalah : "+ j);
         }
-
 }

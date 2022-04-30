@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class soal_1 {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         int input,  i;
         Scanner angka = new Scanner(System.in);
@@ -24,6 +24,5 @@ public class soal_1 {
             }
             i ++;
         } while (i <= input);
-
     }
 }
